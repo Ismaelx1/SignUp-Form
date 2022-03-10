@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Fredoka:wght@300;500&family=Quicksand:wght@300&family=Shizuru&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styling.css">
+    <title>Sign up Form</title>
+</head>
+<body>
+    
+
+<div class="container">
+        <div class="background">
+            <div class="logo"><img src="preview-removebg-preview.png" alt="TOP Logo"></div>
+            <div class="credit">Photo by Thirdman on Pexels</div>
+        </div>
+        <div class="signup">
+            <div class="header">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You know you want to!</p>
+            </div>
+            <div class="forms">
+                    <div class="col1">
+                        <p>Let's do this!</p>
+                    </div>
+
+
+                    <form action="example.com/users" method="post">
+                    <div class="col2">
+                        <div class="rowun-colun"
+                                <label for="firstName">First Name </label>
+                                <input type="text" id="firstName" placeholder="John..." minlength="2" maxlength="20" required>
+                        </div>
+                        <div class="rowun-coldeux">
+                                <label for="lastName">Last Name </label>
+                                <input type="text" id="lastName" placeholder="Doe..." minlength="2" maxlength="20" required>
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <div class="rowdeux-colun">
+                            <label for="emails">Enter Email </label>
+                            <input type="email" id="emails" placeholder="you@example.org" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        </div>
+                        <div class="rowdeux-coldeux">
+                            <label for="phoneNum">Phone Number </label>
+                            <input type="number" id="phoneNum" placeholder="+554-63..." required>
+                        </div>
+
+                    </div>
+                    <div class="col4">
+                        <div class="rowtrois-colun">
+                            <label for="passgo">Password </label>
+                            <input type="password" id="passgo" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6,}$" title="Password should contain at least 6 characters, 1 number and 1 Capital Letter" required>
+                        </div>
+                        <div class="rowtrois-coldeux">
+                            <label for="conPassGo">Confirm </label>
+                            <input type="password" id="conPassGo" required>
+                        </div>
+
+
+                    </div>
+                
+            </div>
+
+
+
+
+            <div class="footlike">
+                <button type="submit">Create Account</button>
+                <p>ALREADY HAVE AN ACCOUNT? <a href="#">LOG IN!</a></p>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
