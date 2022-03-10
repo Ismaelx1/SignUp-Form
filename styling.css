@@ -7,7 +7,7 @@
     display: flex;
 }
 .background {
-    background-image: url(/home/ismail/Odin/FirstOdin/SignUp-Form/pexels-thirdman-5537770.jpg);
+    background-image: url(https://github.com/Ismaelx1/SignUp-Form/blob/main/pexels-thirdman-5537770.jpg?raw=true);
     background-size: cover;
     width: 450px;
     height: 100vh;
